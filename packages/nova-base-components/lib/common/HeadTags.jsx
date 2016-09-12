@@ -6,7 +6,7 @@ class HeadTags extends Component {
 	render() {
 
 		const url = !!this.props.url ? this.props.url : Telescope.utils.getSiteUrl();
-		const title = !!this.props.title ? this.props.title : Telescope.settings.get("title", "Nova");
+		const title = !!this.props.title ? this.props.title : Telescope.settings.get("title", "aiFoci");
 		const description = !!this.props.description ? this.props.description : Telescope.settings.get("tagline");
 
 		// default image meta: logo url, else site image defined in settings

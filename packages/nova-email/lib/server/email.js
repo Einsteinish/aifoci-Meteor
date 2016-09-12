@@ -39,7 +39,7 @@ NovaEmail.buildTemplate = function (htmlContent, optionalProperties = {}) {
   var emailProperties = {
     secondaryColor: Telescope.settings.get('secondaryColor', '#444444'),
     accentColor: Telescope.settings.get('accentColor', '#DD3416'),
-    siteName: Telescope.settings.get('title', "Nova"),
+    siteName: Telescope.settings.get('title', "aiFoci"),
     tagline: Telescope.settings.get('tagline'),
     siteUrl: Telescope.utils.getSiteUrl(),
     body: htmlContent,
